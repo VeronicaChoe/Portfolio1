@@ -1,0 +1,350 @@
+
+body {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: light;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ghostwhite;
+
+  }
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: Red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:ArticulatCF-lightOblique, Articulat CF;
+    font-weight:300;
+    font-style:oblique;
+    
+
+  }
+  
+  li a:hover {
+    background-color: red;
+  }
+
+  .header {
+    float: right;
+    padding-right: 15px;
+    padding: 13px;
+
+  }
+
+  .navbar {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100;
+
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 2rem;
+
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+   
+    color: black;
+  }
+
+
+  
+
+.veronica {
+  font-family: miller-headline;
+  font-weight:300;
+  font-style:oblique;
+  font-size: 1rem;
+
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    top: 0;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: none;
+    width: 100%;
+    
+
+}
+.video {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 70px;
+    padding: 1.2rem;
+
+
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-around;
+
+}
+
+
+.title {
+    display: flex;
+    font-size: 5rem;
+    padding-right: 10px;
+    width: 49%;
+}
+.description{
+    display: flex;
+    padding-top: 30px;
+    float: right;
+    width: 49%;
+    font-size: 1.3rem;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: light;
+}
+
+.link {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+    font-size: 1.2rem;
+    
+
+}
+
+.pictures {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+
+
+}
+.pic {
+    float: left;
+    width: 45%;
+    padding: 1rem;
+  }
+
+.additional {
+    width: 100%;
+    padding: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.additional-text{
+    width: 100%;
+    font-size: 1.4rem;
+    justify-content: left;
+    align-items: left;
+    float: left;
+    padding: 30px;
+}
+ .promotional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+ }
+  
+  @media screen and (max-width: 1500px) {
+    .pictures {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 100px;
+    
+    
+    }
+    .pic {
+        width: 100%;
+        height: auto;
+        padding: none;
+      }
+
+      .sectionOne {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 30px;
+        justify-content: center;
+    align-items: center;
+    
+    }
+
+    .video {
+      width: 100%;
+    }
+    
+    
+    .title {
+        display: flex;
+        font-size: 5rem;
+        width: 100%;
+
+    }
+    .description{
+        display: flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 600;
+        font-style: light;
+        justify-content: center;
+    align-items: center;
+    }
+
+
+    .main-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        color: red;
+      }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: ghostwhite;
+    
+      }
+      
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: flex;
+        color: Red;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family:ArticulatCF-lightOblique, Articulat CF;
+        font-weight:300;
+        font-style:oblique;
+        
+    
+      }
+      
+      li a:hover {
+        background-color: red;
+      }
+    
+      .header {
+        float: right;
+        padding-right: 15px;
+        padding: 13px;
+    
+      }
+    
+      .navbar {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+        z-index: 100;
+    
+      }
+      
+      #navbar  a{
+        float: left;
+        display: block;
+        color: red;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 1.5rem;
+    
+      }
+      
+      #navbar a:hover {
+        background-color: #ddd;
+       
+        color: black;
+      }
+      .veronica {
+        font-family: miller-headline, serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding-left: 15px;
+        padding-top: 13px;
+        text-align: center;
+        justify-content: center;
+
+
+
+
+        
+
+        
+
+      
+      }
+     
+
+  }
